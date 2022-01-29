@@ -6,7 +6,7 @@ SELECT * FROM players WHERE nationality="Spain" AND age=17 AND wage="15000";
 SELECT * FROM players WHERE club="Liverpool" and age >20;
 -- Opdracht 4
 SELECT * FROM players WHERE nationality="Netherlands" and club ="Ajax";
--- Opdracht 5
+-- Opdracht 5.
 SELECT * FROM players WHERE nationality !="Netherlands" and club ="Ajax";
 -- Opdracht 6 
 SELECT name,age FROM players WHERE club = "AZ Alkmaar";
@@ -26,6 +26,6 @@ SELECT name,age FROM players WHERE age >40 AND wage>= 10000;
 SELECT * FROM players WHERE nationality ="Netherlands" AND club="Ajax" OR club="FC Utrecht";
 -- Opdracht 14
 SELECT * FROM players WHERE nationality="England" AND age >20 AND wage >= 100000;
--- Opdracht 15
+-- Opdracht 15.
 SELECT name, age , nationality FROM players WHERE nationality="Argentina " OR nationality="Brazil" AND age > 25;
 
