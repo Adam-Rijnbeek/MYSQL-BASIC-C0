@@ -3,7 +3,7 @@ SELECT * FROM `videogamesales`
 -- Opdracht 2 
 SELECT * FROM `videogamesales` WHERE year = 1999
 -- Opdracht 3
-SELECT NA_Sales FROM 'videogamesales' WHERE genre = 'Sports' 
+SELECT NA_Sales FROM videogamesales WHERE genre = 'Sports' 
 -- Opdracht 4
 SELECT name FROM `videogamesales` WHERE publisher = 'Nintendo' AND year >= 1990 AND year <= 2005
 -- Opdracht 5
