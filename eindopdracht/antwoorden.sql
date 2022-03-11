@@ -1,11 +1,11 @@
 -- Opdracht 1 
 SELECT * FROM `videogamesales`
 -- Opdracht 2 
-SELECT * FROM `videogamesales` WHERE year = 1999
+SELECT COUNT(videogamesales.id) AS aantal_games FROM videogamesales WHERE year = 1999;
 -- Opdracht 3
-SELECT NA_Sales FROM videogamesales WHERE genre = 'Sports' 
+SELECT COUNT(NA_Sales) AS aantal_sports FROM videogamesales WHERE genre = 'Sports' 
 -- Opdracht 4
-SELECT name FROM `videogamesales` WHERE publisher = 'Nintendo' AND year >= 1990 AND year <= 2005
+SELECT name AS game, platform AS platform FROM `videogamesales` WHERE publisher = 'Nintendo' AND year >= 1990 AND year <= 2005
 -- Opdracht 5
 SELECT MAX(Global_Sales) , name AS Meeste_Sales_Wereldwijd FROM `videogamesales` 
 -- Opdracht 6 
